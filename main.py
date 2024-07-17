@@ -7,6 +7,10 @@ import numpy as np
 from PIL import Image, ImageEnhance, ImageFilter
 
 
+# 情報
+SCRIPT_NAME    = "HeaderImageFramer"
+SCRIPT_VERSION = (1, 0)
+
 # 初期値
 DEFAULT_CENTER_IMAGE_RESIZE_VALUE     = 75          # % 中心のヘッダー画像の倍率
 DEFAULT_BACKGROUND_IMAGE_RESIZE_VALUE = 70          # % 背景のヘッダー画像の倍率
