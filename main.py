@@ -177,3 +177,6 @@ if __name__ == "__main__":
 		output_filename = path.join(path.dirname(args.filename), path.splitext(path.basename(args.filename))[0] + "_Framed.png")
 
 	merged_image.save(output_filename)
+
+	print("Done.")
+	sys.exit(0)
